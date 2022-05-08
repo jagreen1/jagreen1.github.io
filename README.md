@@ -1,2 +1,2 @@
-# JoshuaGreen.github.io
-Personal portfolio website
+# Joshua Green
+Portfolio website showcasing some of my academic and personal projects
