@@ -18,15 +18,16 @@ University of British Columbia, Vancouver, BC
 
 2) Socials
 
-Southampton Personal Page
-LinkedIn
-GitHub
-Google Scholar
+- Southampton Personal Page
+- LinkedIn
+- GitHub
+- Google Scholar: https://scholar.google.com/citations?user=4XIJQwcAAAAJ&hl=en
 
 3) Academic Research Groups
 
 Current
   - Ivan Haigh / Soton NOCS Physical Oceanography (2021+)
+  - Southampton Page
 
 Past
   - Suzzanne Simmard / Mother Tree (2017-2019)
