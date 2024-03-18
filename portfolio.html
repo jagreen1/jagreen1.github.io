@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Joshua Green | Portfolio</title>
+      <link rel="stylesheet" href="styles/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <!--- Navigation Bar --->
+   <body>
+      <nav>
+         <div class="navbar" id="mynavbar">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT ME</a>
+            <a href="publications.html">PUBLICATIONS</a>
+            <a href="resume.html">RESUME</a>
+            <a href="portfolio.html" class="active">PORTFOLIO</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+         </div>
+      </nav>
+      <!--- Section 1: Title --->
+      <div class="about_me_title">
+         <div class="about_me_text">
+            <h1>PORTFOLIO</h1>
+         </div>
+      </div>
+      <!-- Portfolio Gallery Grid -->
+      <div style="background-color: var(--alternative)">
+         <div style="max-width: 1800px; margin: 0 auto !important; float: none !important;">
+            <!--- Section 2a: GIS Portfolio control buttons --->
+            <div class="portfolio_cont">
+               <div id="myBtnContainer">
+                  <button class="portbtn portactive" onclick="filterSelection('all')"> Show all</button>
+                  <button class="portbtn" onclick="filterSelection('Geospatial')"> Geospatial</button>
+                  <button class="portbtn" onclick="filterSelection('Web_Mapping')"> Web Mapping</button>
+                  <button class="portbtn" onclick="filterSelection('NASA')"> NASA</button>
+                  <button class="portbtn" onclick="filterSelection('Natural_Hazards')"> Natural Hazards</button>
+               </div>
+               <div class="portrow">
+                  <div class="portcolumn Geospatial NASA Natural_Hazards">
+                     <div class="portcontent">
+                        <a href="projects/NASA_GSFC_Macedonia_Landslide.html" target="" class="port_txt">
+                           <img src="images/Macedonia_Landslide_1.png" alt="Project1" style="width:95%">
+                           <h3 style="font-family: 'Montserrat', sans-serif;">NASA GSFC Macedonia Landslides</h3>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="portcolumn Geospatial NASA Natural_Hazards">
+                     <div class="portcontent">
+                        <a href="projects/NASA_DEVELOP_AlaskaTransportation2020.html" target="" class="port_txt">
+                           <img src="images/2020Sum_JPL_AlaskaTransporation_WebsiteImage.jpg" alt="Project2" style="width:100%">
+                           <h3 style="font-family: 'Montserrat', sans-serif;">NASA DEVELOP Alaska Transporation</h3>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="portcolumn Geospatial NASA Natural_Hazards">
+                     <div class="portcontent">
+                        <a href="projects/NASA_DEVELOP_IllinoisDisaster2021.html" target="" class="port_txt">
+                           <img src="images/2021Sum_NCEI_IllinoisDisasters_WebsiteImage.jpg" alt="Project3" style="width:100%">
+                           <h3 style="font-family: 'Montserrat', sans-serif;">NASA DEVELOP Illinois Disaster</h3>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="portcolumn">
+                     <div class="portcontent">
+                        <a href="projects/Mother_Tree_Project.html" target="" class="port_txt">
+                           <img src="images/Mother_Tree_Project_Icon.png" class alt="Project4" style="width:100%">
+                           <h3 style="font-family: 'Montserrat', sans-serif;">The Mother Tree Project</h3>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="portcolumn">
+                     <div class="portcontent">
+                        <a href="projects/Smart_Earth_Project.html" target="" class="port_txt">
+                           <img src="images/Smart_Earth_Icon.png" alt="Project5" style="width:28%">
+                           <h3 style="font-family: 'Montserrat', sans-serif;">The Smart Earth Project</h3>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="portcolumn Geospatial Natural_Hazards">
+                     <div class="portcontent">
+                        <a href="projects/Geomorphology_Haida_Gwaii.html" target="" class="port_txt">
+                           <img src="images/HG_Slides-Basins-Flow_Map.png" alt="Project6" style="width:20%">
+                           <h3 style="font-family: 'Montserrat', sans-serif;">Geomorphology & Landslides of Haida Gwaii</h3>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="portcolumn Geospatial Natural_Hazards">
+                     <div class="portcontent">
+                        <a href="projects/BC_GWR_Wildfire.html" target="" class="port_txt">
+                           <img src="images/BC_GWR_Coefficient_Surfaces.png" alt="Project7" style="width:70%">
+                           <h3 style="font-family: 'Montserrat', sans-serif;">Geographically Weighted Regression Analysis of Wildfires in British Columbia</h3>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="portcolumn Geospatial Web_Mapping">
+                     <div class="portcontent">
+                        <a href="projects/Baltic_MPA_AIS_Webmap.html" target="" class="port_txt">
+                           <img src="images/Baltic_AIS_Webmap_1.png" alt="Project8" style="width:100%" style="height:120%">
+                           <h3 style="font-family: 'Montserrat', sans-serif;">Baltic Sea Marine Protected Area  AIS Vessel Monitoring</h3>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="portcolumn Geospatial Web_Mapping">
+                     <div class="portcontent">
+                        <a href="projects/2020_Canadian_Pipeline_Railway_Protests.html" target="" class="port_txt">
+                           <img src="images/2020_Pipeline_Protest_Image.jpg" alt="Project9" style="width:100%">
+                           <h3 style="font-family: 'Montserrat', sans-serif;">2020 CGL Pipeline & Railway Protest StoryMapping</h3>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="portcolumn Geospatial Web_Mapping">
+                     <div class="portcontent">
+                        <a href="projects/Monarch_Butterfly_Webmap.html" target="" class="port_txt">
+                           <img src="images/Monarch_Butterfly_Webmap_1.png" alt="Template" style="width:100%">
+                           <h3 style="font-family: 'Montserrat', sans-serif;">Monarch Butterfly 2018 Migration</h3>
+                        </a>
+                     </div>
+                  </div>
+                  <!--- <div class="portcolumn">
+                     <div class="portcontent">
+                        <a href="projects/project.html" target="" class="port_txt">
+                           <img src="images/Project_Image.png" alt="Template" style="width:100%">
+                           <h3 style="font-family: 'Montserrat', sans-serif;">Project_Title</h3>
+                        </a>
+                     </div>
+                  </div> -->
+               </div>
+               <!-- END GRID -->
+            </div>
+         </div>
+      </div>
+      <!--- Section 3: Contact Information --->
+      <!---<div class="about_me_interests_cont_pg2">
+         <div class="about_me_interests_pg2">
+           <br>
+           <h2 style="font-family: 'Montserrat', sans-serif;">Contact</h2>
+           <br>
+           <p>Please feel free to contact me via email or LinkedIn.</p>
+           <br>
+           <h2 style="font-family: 'Montserrat', sans-serif;">Email</h2>
+           <br>
+           <p>j.green@soton.ac.uk</p>
+           <br>
+         </div>
+         </div>
+         <!--- Footer --->
+      <div class="top_footer">
+         <p style="font-size: 24px; font-family: 'Montserrat', sans-serif;">Contact Me</p>
+         <a href="mailto:j.green@soton.ac.uk"><i class="fa fa-envelope"></i></a>
+         <a href="https://www.linkedin.com/in/joshua-green1/"><i class="fa fa-linkedin"></i></a>
+         <a href="https://github.com/jagreen1"><i class="fa fa-github"></i></a>
+      </div>
+      <div class="bottom_footer">
+         <p><small>&copy; Copyright <span id="year"></span>, Joshua Green</small></p>
+      </div>
+      <script src="scripts/filter.js"></script>
+      <script src="scripts/icon.js"></script>
+      <script src="scripts/year.js"></script>
+   </body>
+</html>
