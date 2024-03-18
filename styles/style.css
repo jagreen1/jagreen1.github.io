@@ -2168,6 +2168,13 @@ img {vertical-align: middle;}
   margin-left: 8px;
 }
 
+/* Google Scholar */
+.fa-google-scholar {
+  background: #afb3b3;
+  color: white;
+  margin-left: 8px;
+}
+
 .embed_linkedin{
   width: 500px;
   height: 500px;
@@ -2195,18 +2202,40 @@ img {vertical-align: middle;}
   opacity: 0.8;
 }
 
+.fa-brands {
+  padding: 15px;
+  font-size: 15px;
+  width: 15px;
+  height: auto;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  position: relative;
+  bottom: 0px;
+  align-items: center;
+  opacity: 0.8;
+}
+
 .fa:hover {
   transform: scale(1.2);
 }
 
+/* LinkedIn */
 .fa-linkedin:hover {
   color: white;
   opacity: 1.0;
   transform: scale(1.2);
 }
 
-/* LinkedIn */
+/* Github */
 .fa-github:hover {
+  color: white;
+  opacity: 1.0;
+  transform: scale(1.2);
+}
+
+/* Google Scholar */
+.fa-google-scholar:hover {
   color: white;
   opacity: 1.0;
   transform: scale(1.2);
