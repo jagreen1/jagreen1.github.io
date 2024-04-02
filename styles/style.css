@@ -2036,12 +2036,43 @@ img {vertical-align: middle;}
   clear: both;
 }
 
-/* Content */
+/* original
 .portcontent {
   background-color: var(--secondary);
   color: var(--lighttext);
   padding: 15px;
 }
+*/
+
+.portcontent {
+  background-color: var(--secondary);
+  color: var(--lighttext);
+  padding: 10px;
+  gap: 20px;
+  height: 240px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+@media (max-width: 1000px) {
+  .portcontent {
+    gap: 20px;
+  }
+}
+.portcontent img {
+  max-width: 100%;
+  max-height: 200px;
+  aspect-ratio: 1;
+  object-fit: contain;
+  /*border: 1px solid #ccc;*/
+}
+
+
+
+
 
 /* The "show" class is added to the filtered elements */
 .portshow {
@@ -2271,7 +2302,7 @@ img {vertical-align: middle;}
 }
 
 /*
-	Max width. This query will take effect for any screen smaller than 760px and also iPads specifically.
+	Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
 	*/
   .table-style{
     font-family: 'Montserrat', sans-serif;
@@ -2328,7 +2359,10 @@ img {vertical-align: middle;}
 			padding-left: 50%;
         }
     }
-
+		/*
+		Label the data
+    You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+		*/
 		td:nth-of-type(1):before { content: "Website Image"; }
 		td:nth-of-type(2):before { content: "Short Title"; }
 		td:nth-of-type(3):before { content: "Long Title"; }
